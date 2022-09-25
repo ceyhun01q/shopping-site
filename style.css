@@ -1,0 +1,251 @@
+/*header start*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+  }
+  html{
+    font-size: 100%;
+  }
+  
+  .heading-top {
+    width: 100%;
+    padding: 2%;
+    background-color: black;
+  }
+  .heading-top1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heading-top1 .heading-top-a {
+    color: #fff;
+  }
+  .heading-top-b {
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 0.7% 1.7%;
+    border-radius: 10px;
+  }
+  .heading-bottom {
+    width: 100%;
+    padding-top: 2%;
+  }
+  .heading-bottom ul li:hover{
+    transition: 1s ease-in;
+
+  }
+
+  .heading-bottom ul li:hover a{
+    color: red;
+    transition: 1s ease-in;
+  }
+
+  
+  .heading-bottom ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 5% 0 5%;
+  }
+  .heading-bottom ul li {
+    list-style-type: none;
+    padding: 0 2% 0 2%;
+  }
+  .heading-bottom ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  /*header end*/
+  
+  /*middle top start*/
+  .middle-top{
+    width: 100%;
+    height: 100vh;
+    background-image:url("img/wall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .middle-top .all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .middle-top img {
+    width: 33.3%;
+    
+  }
+  
+  /*middle top end*/
+  
+  .middle-bottom {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(247, 240, 240);
+    padding: 5% 5%;
+  }
+  .middle-bottom div {
+    text-align: center;
+    width: 20%;
+  }
+  
+  .middle-bottom div img{
+    width: 25%;
+    margin-bottom: 5%;
+    
+  
+  }
+  .middle-bottom div span{
+    color: gray;
+  }
+  
+  .middle-bottom div h3{
+    margin-bottom: 5%;
+  }
+  
+  .img-area {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 5%;
+  }
+  
+  .img-area div {
+    width: 20%;
+  
+  }
+  .img-area div img {
+    width: 100%;
+  }
+  .img-area2 {
+    width: 100%;
+    display: flex;
+  }
+  .img-area2 div {
+    width: 33.3%;
+    height: 500px;
+  }
+  .three {
+      display:flex;
+      background-color: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  .three *{
+    margin-bottom: 10%;
+  }
+  .img-area2 div img{
+    width: 100%;
+    height: 500px
+  }
+  .nsButton{
+    width: 70%;
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .footer-side {
+    width: 100%;
+    display: flex;
+  }
+  .about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+  }
+  .social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+  }
+  .about1 *{
+    margin-bottom: 20%;
+  }
+  .input-1 .fInput{
+    width: 80%;
+    padding: 2%;
+  }
+  .input-1 .fButton{
+    padding: 2%;
+    background-color: black;
+    color: white;
+  }
+  .about1 li {
+    list-style-type: none;
+    color: #808080;
+  }
+  .about1 h3 {
+    margin-top: 20%;
+  }
+  
+  .social h3 {
+    margin-bottom: 5%;
+  }
+  i {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+  }
+
+
+@media only screen and (max-width:766px){
+
+  .heading-bottom ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heading-bottom ul li {
+    width: 100%;
+    margin: 1.5% 0 1.5% 0;
+    padding:1% 0 1% 0 ;
+    text-align: center;
+  }
+  .img-area2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-area2 div {
+    width: 100%;
+  }
+
+  .img-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .img-area div {
+    width: 100%;
+  }
+  .one h2 {
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  
+}
